@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ClickerApp</string>
+    <string name="hint_login">Логин</string>
+    <string name="hint_password">Пароль</string>
+    <string name="bnt_reg_log">Вход / Регистрация</string>
+    <string name="default_count">0</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_save">Сохранить результат</string>
+</resources>
