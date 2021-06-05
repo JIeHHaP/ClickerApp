@@ -20,13 +20,9 @@ class MainCount : AppCompatActivity() {
         binding.bntMinus.setOnClickListener {
             counterMinus()
         }
-
-
-        
-
-
-
     }
+
+
 
 
 
