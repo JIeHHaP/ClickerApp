@@ -1,10 +1,8 @@
 package com.example.clickerapp
 
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.clickerapp.databinding.ActivityMainCountBinding
-import org.w3c.dom.Text
 
 class MainCount : AppCompatActivity() {
     private lateinit var binding: ActivityMainCountBinding
@@ -24,8 +22,7 @@ class MainCount : AppCompatActivity() {
         }
 
 
-
-
+        
 
 
 
