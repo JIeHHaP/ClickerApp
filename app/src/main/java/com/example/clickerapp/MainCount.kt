@@ -1,5 +1,6 @@
 package com.example.clickerapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.clickerapp.databinding.ActivityMainCountBinding
@@ -20,7 +21,14 @@ class MainCount : AppCompatActivity() {
         binding.bntMinus.setOnClickListener {
             counterMinus()
         }
+        binding.btnSave.setOnClickListener {
+
+            var dialog = PopUpSaveComment()
+            dialog.show(supportFragmentManager, "custom")
+
+        }
     }
+
 
 
 
